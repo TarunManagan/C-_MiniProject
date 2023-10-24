@@ -12,7 +12,7 @@ Output:
 Algorithm:
 
 1. Create an empty adjacency list `adj` to represent the graph.
-
+ 
 2. Populate the adjacency list `adj` with edges and their corresponding weights:
    - For each edge (u, v, w) in `vec`:
      - Add (v, w) to `adj[u]` (since it's an undirected graph, add (u, w) to `adj[v]` as well).
